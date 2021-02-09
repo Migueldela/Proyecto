@@ -1,0 +1,13 @@
+header h1 { display: flex; justify-content: center;color:white;background-color: black;margin: 10px 40%;}
+#menu{display:flex ; justify-content: space-around;}
+.subMenu1 { display: none;}
+#item1:hover .subMenu1 {display: block;}
+#item1{color:white;background-color: black;transition: 4s;}
+.subMenu1 a {color:white;}
+.subMenu2 a {color: white;}
+#item2:hover .subMenu2 {display: block;}
+.subMenu2{ display: none;}
+#item2 {color:white;background-color: black;transition: 4s;}
+header{background-color: rgb(4, 149, 245); padding: 30px;}
+#item1:hover { background-color: red;}
+#item2:hover{ background-color: red;}
